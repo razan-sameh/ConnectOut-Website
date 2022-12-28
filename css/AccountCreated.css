@@ -1,0 +1,78 @@
+body{
+    background: linear-gradient(100deg, white 60%,#448088 20%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+@media (max-width:576px) {
+    .navbar-brand {
+        width: 50%;
+    }
+    .navbar-brand img{
+        width: 100%;
+    }
+    .user_img{
+        width: 15%;
+    }
+    #page-container{
+        min-height: 110vh;
+    }
+}
+@media (max-width:576px ) and (max-width:540px){
+    #page-container{
+        min-height: 150vh;
+    }
+}
+@media (max-width:400px) {
+
+    #page-container{
+        min-height: 150vh;
+    }
+    section .container {
+    width: fit-content;
+    padding-left: 0;
+    }
+}
+@media (max-width:500px) {
+
+    #page-container{
+        min-height: 150vh;
+    }
+}
+section .container{
+    background-color: white;
+    border: 1px solid #8F8F8F;
+    border-radius: 10px
+}
+section svg {
+    color: #95C93D;
+}
+
+/* start footer */
+footer {
+    background-color: #00525E;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer ul li {
+    margin-bottom: 16px;
+}
+footer .link li a {
+    transition: 0.3s;
+}
+footer .link li a:hover {
+    padding-left: 25px;
+}
+/* end footer */

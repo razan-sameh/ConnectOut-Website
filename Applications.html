@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <link  rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalization.css">
+    <link rel="stylesheet" href="css/Applications.css">
+    
+    <title>Connect Out</title>
+</head>
+<body>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light p-0 mb-2 pt-2">
+        <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="images/Logo in white.png" alt="logo.png" class="logo img-fluid">
+        </a>
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars navbar-toggler-icon" style="color: white;"></i>
+        </button>
+        <!--Search-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="search d-flex m-auto rounded-3 fs-4 align-items-center" style="background-color: #ffffff36;">
+                <i class="fa-solid fa-magnifying-glass ps-2 fs-5 fw-normal" style="color: white;"></i>
+                <input class="form-control shadow-none border-0 " type="search" placeholder="Search" aria-label="Search" style="background-color: transparent;">
+            </form>
+            <!--End search-->
+            <!--Start links-->
+            <ul class="navbar-nav  mb-2 mb-lg-0">
+            <div class="main_li d-flex flex-lg-row flex-md-column align-items-center">
+            <li class="nav-item "><a href="#" class="p-3" >Find</a></li>
+            <li class="nav-item active"><a href="#" class="p-3" style="color: #95C93D;">Applications</a></li>
+            <li class="nav-item"><a href="#" class="p-3">Messages</a></li>        
+            <li class="nav-item ">
+                <a href="#" class="d-lg-none fs-6 not p-3">Notification </a>
+                <i class="fa-solid fa-bell  " style="color: white; font-size: 25px; cursor: pointer;padding: 16px;"></i>
+            </li>
+        </div>
+        <!--End links-->
+            <li class="nav-item dropdown text-center position-relative flex-wrap">
+                <div class="photo_container dropdown-toggle mt-2" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                <img src="images/small 1st character 1.png" style="position: absolute; left: 0; clip-path: circle();" alt="char.png"
+                    class=" img-fluid" id="img3">
+                </div>
+                <div class="nav-d-lg-none mt-2 text_student_name">
+                        <a class="d-lg-none   p-0 me-4" style="color: white;" href="#">Student name </a>
+                        <a class=" d-lg-none   p-0 ms-2" style="color: white;" href="#">student@gmail.com</a>
+                </div>
+            <span class="arrow d-lg-none d-flex dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false"></span>
+            <!--Dropdown list-->
+                <ul class="dropdown-menu dropdown-menu-end p-3 menu" aria-labelledby="navbarDropdownMenuLink" style="width: 250px;margin-top: 10px;margin-right:-4px;">
+                    <li class="d-flex align-items-center photo_names">
+                        <div class="photo_container">
+                        <img src="images/small 1st character 1.png" style="position: absolute; left: 0; clip-path: circle();" alt="char.png" class=" img-fluid" id="img2">
+                    </div>
+                        <div class = "">
+                            <a class="dropdown-item bg-transparent p-0 ms-2" href="#">Student name </a>
+                            <a class="dropdown-item bg-transparent text-black-50 p-0 ms-2" href="#">student@gmail.com</a>
+                        </div>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li class="d-flex align-items-center">
+                        <a class="dropdown-item bg-transparent" href="#">Saved</a>
+                        <i class="fa-solid fa-bookmark fs-4 pe-2 d-md-none"></i>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <a class="dropdown-item bg-transparent" href="#">Contact us</a>
+                        <i class="fa-solid fa-envelope fs-4"></i>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <a class="dropdown-item bg-transparent" href="#">About us</a>
+                        <i class="fa-solid fa-circle-exclamation fs-4"></i>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li class="d-flex align-items-center">
+                        <a class="dropdown-item bg-transparent" href="#">Setting</a>
+                        <i class="fa-solid fa-gear fs-4"></i>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <a class="dropdown-item bg-transparent" href="#">Logout</a>
+                        <i class="fa-solid fa-circle-arrow-left fs-4"></i>
+                    </li>
+                </ul>
+            </li>
+            </ul>  
+        </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <section class="full-section position-relative mb-5">
+        <div class="container p-4">
+            <div class="row">
+                <!-- start Post -->
+                <div class="job-container">
+                    <h1 class="ps-4">Applications</h1>
+                    <div class="job border p-4 mb-3">
+                        <a href="#">
+                        <div class="header d-flex justify-content-between">
+                            <div class="text d-flex align-items-center">
+                                <h2 class="pe-2">Front-End Developer</h2>
+                                <button type="button" class="btn btn-primary rounded-pill shadow-none" style="height: fit-content;">1 mos</button>
+                            </div>
+                            <div class="logo">
+                                <img src="images/building-on-crescent-4303ld 2.png" alt="">
+                            </div>
+                                
+                        </div>
+                        <div class="details">
+                            <div class="text">
+                                <h5 class="m-0"> XYZ co.</h5>
+                                <p>Information technology-Location</p>
+                            </div>
+                            <div class="desc d-flex mb-4 align-items-center">
+                                <button type="button" class="btn btn-primary rounded-pill shadow-none me-4" style="height: fit-content;">Applied</button>
+                                <p class="m-0">Posted 5 days ago</p>
+                            </div>
+                        </div>
+                        <div class="buttons border-top d-flex pt-4">
+                            <div class="icon d-flex ms-4 me-3" role="button">
+                                <i class="fa-solid fa-bookmark fs-4 me-2"></i>
+                                <p class="m-0">Save</p>
+                            </div>
+                            <div class="icon d-flex "role="button">
+                                <i class="fa-solid fa-share fs-4 me-2"></i>
+                                <p class="m-0">Share</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- end Post -->
+                <!-- start Application -->
+    <div class="job-container">
+        <div class="Application border p-4 mb-3">
+            <div class="boxes d-flex">
+                <div class="box me-4 border-end p-3">
+                    <h5>Number of applicants</h5>
+                    <p class="text-center fs-4">40</p>
+
+                </div>
+                <div class="box me-4 border-end p-3">
+                    <h5 style="color: #95C93D;">In Consideration</h5>
+                    <p class="text-center fs-4">11</p>
+
+                </div>
+                <div class="p-3">
+                    <h5 style="color: #E63946;">Not Selecteted</h5>
+                    <p class="text-center fs-4">2</p>
+
+                </div>
+
+            </div>
+
+            <div class="question row ">
+                <h4 class="col-lg-7 col-sm-7">questions</h4>
+                <div class="answered col-lg-5 col-sm-5 d-flex">
+                    <ul class="pagination ">
+                        <li class="page-item "><a class="page-link active" href="#"></a></li>
+                        <li class="page-item"><a class="page-link active" href="#"></a></li>
+                        <li class="page-item"><a class="page-link active" href="#"></a></li>
+                        <li class="page-item"><a class="page-link active" href="#"></a></li>
+                        <li class="page-item"><a class="page-link active" href="#"></a></li>
+                        <li class="page-item"><a class="page-link" href="#"></a></li>
+        
+                    </ul>
+                    <p class="fs-5">Answered 5 out of 6</p>
+
+                </div>
+
+            </div>
+            <form action="#" method="post" >
+                <div class=" headQue">
+                    <label for="Qone">Tell us about yourself. What makes you unique from other candidates?</label>                    
+                    <div class="ques d-flex align-items-center">
+                        <i class="fa-solid fa-pencil fs-4 ps-3 pe-2 " role="button"></i>
+                        <p class="mb-0" role="button">Edit your answer</p>
+                    </div>  
+                </div>
+                <textarea  rows="6" cols="75" id="Qone" name="Qone" placeholder="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. " required readonly></textarea><br>
+                <div class=" headQue">
+                    <label for="Qtwo">What are you expecting of this internship? </label>
+                    <div class="ques d-flex align-items-center">
+                        <i class="fa-solid fa-pencil fs-4 ps-3 pe-2 " role="button"></i>
+                        <p class="mb-0" role="button">Edit your answer</p>
+                    </div>                   
+                </div>
+                
+                <textarea rows="6" cols="75" id="Qtwo" name="Qtwo" placeholder="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. " required readonly></textarea><br>
+                <div class=" headQue">
+                    <label for="Qthere">Do you trained before? </label>
+                    <div class="ques d-flex align-items-center">
+                        <i class="fa-solid fa-pencil fs-4 ps-3 pe-2 " role="button"></i>
+                        <p class="mb-0" role="button">Edit your answer</p>
+                    </div>
+                </div>
+                <input type="radio" id="Qthere" name="Qthere" value="yes" checked="checked" disabled><label class="p-1" for="Qthere">Yes</label>
+                <input type="radio" id="Qthere" name="Qthere" value="no"  disabled><label class="p-1" for="Qthere">No</label><br>
+                <div class=" headQue">
+                    <label for="Qfour">What are you expecting of this internship?  </label>
+                    <div class="ques d-flex align-items-center">
+                        <i class="fa-solid fa-pencil fs-4 ps-3 pe-2 " role="button"></i>
+                        <p class="mb-0" role="button">Edit your answer</p>
+                    </div>
+                </div>
+                <textarea rows="6" cols="75" id="Qfour" name="Qfour" placeholder="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. " required readonly></textarea><br>
+                <div class="headQue">
+                    <label for="Qfive">What are you expecting of this internship?</label><br>
+                    <div class="ques d-flex align-items-center">
+                        <i class="fa-solid fa-pencil fs-4 ps-3 pe-2 " role="button"></i>
+                        <p class="mb-0" role="button">Edit your answer</p>
+                    </div>
+                </div>
+                <textarea rows="6" cols="75" id="Qfive" name="Qfive" placeholder="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.  " required readonly></textarea><br>
+                <div class=" headQue">
+                    <label for="Qthere">Do you trained before? </label><br>
+                    <div class="ques d-flex align-items-center">
+                        <i class="fa-solid fa-pencil fs-4 ps-3 pe-2 " role="button"></i>
+                        <p class="mb-0" role="button">Edit your answer</p>
+                    </div>
+                </div>
+                <input type="radio" id="Qthere" name="Qthere" value="yes"  disabled ><label class="p-1" for="Qthere">Yes</label>
+                <input type="radio" id="Qthere" name="Qthere" value="no" disabled><label class="p-1" for="Qthere">No</label><br>
+            
+            </form> 
+        
+                
+
+        </div>
+        </div>
+        </div>
+        </div>
+
+    </section>
+    <!-- end Application -->
+        <!-- start footer  -->
+        <footer class="text-center text-md-start">
+            <div class="container ">
+                <div class="row pt-5">
+                    <div class="col-md-6 col-lg-3 ps-lg-5">
+                        <ul class="link list-unstyled ">
+                            <li>
+                                <a href="#" class="text-light text-decoration-none">About US</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-light text-decoration-none">Our Service</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-light text-decoration-none">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <ul class="link list-unstyled ">
+                            <li>
+                                <a href="#" class="text-light text-decoration-none">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-light text-decoration-none">Help and support</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-light text-decoration-none">Feedback</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <ul class="link list-unstyled ">
+                            <li>
+                                <a href="#" class="text-light text-decoration-none">Interenships</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-light text-decoration-none">Jobs</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-light text-decoration-none">Courses</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <ul class="link list-unstyled ">
+                            <li>
+                                <a href="#" class="text-light text-decoration-none">Start-up</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-light text-decoration-none">Students</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-light text-decoration-none">Entry level</a>
+                            </li>
+                        </ul>
+                        </div>
+                    <div class="d-flex border-bottom border-top p-4 ps-0">
+                        <div class="col-6 col-lg-2 d-flex justify-content-sm-start ps-5">
+                            <p class="mb-0"> Follow us on </p>
+                            </div>
+                        <ul class="col-6 list-unstyled d-flex gap-3 mb-0">
+                            <li class="mb-0">
+                                <a href="#" class="text-light">
+                                    <i class="fa-brands fa-facebook fs-4 ms-3"></i>
+                                </a>
+                                </li>
+                                <li class="mb-0">
+                                    <a href="#" class="text-light">
+                                    <i class="fa-brands fa-instagram fs-4 ms-3"></i>
+                                </a>
+                                </li>
+                                <li class="mb-0">
+                                    <a href="#" class="text-light">
+                                    <i class="fa-brands fa-twitter fs-4 ms-3"></i>
+                                </a>
+                                </li>
+                                </ul>
+                    </div>
+                    <div class="col-lg-12 d-flex align-items-center justify-content-center p-4">
+                        <p class="m-0">&copy; 2022 ConnectOut&reg; Global Inc</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </footer>
+            <!-- end footer  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/Applications.js"></script>
+
+
+
+</body>
+</html>

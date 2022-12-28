@@ -1,0 +1,99 @@
+body{
+    background: linear-gradient(100deg, white 60%,#448088 20%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    height: 937px;
+}
+section .btn-primary {
+    color: #fff;
+    background-color: #95C93D;
+    border-color: #95C93D;
+    border-radius: 32px;
+
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #95C93D;
+    border-color: #95C93D;
+}
+.btn-primary:active {
+    color: #fff;
+    background-color: #95C93D;
+    border-color: #95C93D;
+}
+.btn-primary:focus {
+    color: #fff;
+    background-color: #95C93D;
+    border-color: #95C93D;
+    box-shadow: 0 0 0 0;
+}
+.btn-primary:active:focus {
+    box-shadow: 0 0 0 0;
+}
+.form-control {
+    border: 1px solid #95C93D;
+    border-radius: 10px;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: black;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+.pagination{
+    height: 48%;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0;
+}
+.pagination .page-item{
+    margin: 3px;
+}
+.pagination .page-item .page-link.active{
+    clip-path:  circle();
+    background-color: #95C93D;
+}
+.pagination .page-item .page-link{
+    clip-path:  circle();
+    background-color: #C4C4C4;
+    
+}
+footer {
+    display: flex;
+    align-items: flex-end;
+    
+}
+footer .btn-primary {
+    color: #fff;
+    background-color: #95C93D;
+    border-color: #95C93D;
+    height: max-content;
+    width: 10%;
+
+}
+@media (max-width:576px) {
+    section .skills {
+        width: 100%;
+    }
+    section .text {
+        width: 100% !important;
+    }
+    .pagination {
+        height: 33%;
+    }
+    footer .btn-primary {
+        width: 30%;
+    }
+    .navbar-brand {
+        width: 50%;
+    }
+    .navbar-brand img{
+        width: 100%;
+    }
+    .user_img{
+        width: 15%;
+    }
+}

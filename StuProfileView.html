@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <link  rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalization.css">
+    <link rel="stylesheet" href="css/StuProfileView.css">
+    
+    <title>Connect Out</title>
+</head>
+<body>
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- start navbar -->
+<nav class="navbar navbar-expand-lg navbar-light p-0 mb-2 pt-2">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+        <img src="images/Logo in white.png" alt="logo.png" class="logo img-fluid">
+        </a>
+    <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars navbar-toggler-icon" style="color: white;"></i>
+    </button>
+    <!--Search-->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="search d-flex m-auto rounded-3 fs-4 align-items-center" style="background-color: #ffffff36;">
+            <i class="fa-solid fa-magnifying-glass ps-2 fs-5 fw-normal" style="color: white;"></i>
+            <input class="form-control shadow-none border-0 " type="search" placeholder="Search" aria-label="Search"
+                style="background-color: transparent;">
+        </form>
+        <!--End search-->
+        <!--Start links-->
+        <ul class="navbar-nav  mb-2 mb-lg-0">
+            <div class="main_li d-flex flex-lg-row flex-md-column align-items-center">
+                <li class="nav-item active"><a href="#" class="p-3" style="color: #95C93D;">Find</a></li>
+                <li class="nav-item "><a href="#" class="p-3">Reports</a></li>
+                <li class="nav-item"><a href="#" class="p-3">Messages</a></li>
+                <li class="nav-item ">
+                    <a href="#" class="d-lg-none fs-6 not p-3">Notification </a>
+                    <i class="fa-solid fa-bell  " style="color: white; font-size: 25px; cursor: pointer;padding: 16px;"></i>
+                </li>
+    </div>
+    <!--End links-->
+    <li class="nav-item dropdown text-center position-relative flex-wrap">
+        <div class="photo_container dropdown-toggle mt-2" href="#" id="navbarDropdownMenuLink" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="images/small 1st character 1.png" style="position: absolute; left: 0; clip-path: circle();"
+                alt="char.png" class=" img-fluid" id="img3">
+        </div>
+        <div class="nav-d-lg-none mt-2 text_student_name">
+            <a class="d-lg-none   p-0 me-4" style="color: white;" href="#">Student name </a>
+            <a class=" d-lg-none   p-0 ms-2" style="color: white;" href="#">student@gmail.com</a>
+        </div>
+        <span class="arrow d-lg-none d-flex dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false"></span>
+        <!--Dropdown list-->
+        <ul class="dropdown-menu dropdown-menu-end p-3 menu" aria-labelledby="navbarDropdownMenuLink"
+            style="width: 250px;margin-top: 10px;margin-right:-4px;">
+            <li class="d-flex align-items-center photo_names">
+                <div class="photo_container">
+                    <img src="images/small 1st character 1.png" style="position: absolute; left: 0; clip-path: circle();"
+                        alt="char.png" class=" img-fluid" id="img2">
+                </div>
+                <div class="">
+                    <a class="dropdown-item bg-transparent p-0 ms-2" href="#">Student name </a>
+                    <a class="dropdown-item bg-transparent text-black-50 p-0 ms-2" href="#">student@gmail.com</a>
+                </div>
+            </li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li class="d-flex align-items-center">
+                    <a class="dropdown-item bg-transparent" href="#">Saved</a>
+                    <i class="fa-solid fa-bookmark fs-4 pe-2 d-md-none"></i>
+                </li>
+                <li class="d-flex align-items-center">
+                    <a class="dropdown-item bg-transparent" href="#">Contact us</a>
+                    <i class="fa-solid fa-envelope fs-4"></i>
+                </li>
+                <li class="d-flex align-items-center">
+                    <a class="dropdown-item bg-transparent" href="#">About us</a>
+                    <i class="fa-solid fa-circle-exclamation fs-4"></i>
+                </li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li class="d-flex align-items-center">
+                    <a class="dropdown-item bg-transparent" href="#">Setting</a>
+                    <i class="fa-solid fa-gear fs-4"></i>
+                </li>
+                <li class="d-flex align-items-center">
+                    <a class="dropdown-item bg-transparent" href="#">Logout</a>
+                    <i class="fa-solid fa-circle-arrow-left fs-4"></i>
+                </li>
+                </ul>
+                </li>
+                </ul>
+    </div>
+    </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start info -->
+    <section class="information mb-4">
+        <div class="container">
+            <div class="row position-relative landing">
+            </div>
+            <div class="row position-relative">
+                <div class="photo">
+                    <img src="images/1st character 1.png" alt="character.png" class="img-fluid" style="width: 200px; border-radius: 50%;">
+                </div>
+            <div class="info col-lg-12 text p-5">
+                <h3>Student name</h3>
+                <p class="lh-1">university and major</p>
+                <p>Location<span>.Contact info</span></p>
+                <button type="button" class="btn btn-outline-primary rounded-pill shadow-none mb-2">Follow</button>
+                <button type="button" class="btn btn-outline-primary rounded-pill shadow-none mb-2">message</button>
+            </div>
+        </div>
+    </section>
+    <!-- end info -->
+    <!-- start about  -->
+    <section class="about mb-4">
+        <div class="container ">
+            <div class="row border">
+                <div class="col-lg-12 ps-5 pt-5 pb-2 d-flex justify-content-between p-4">
+                    <h4>About</h4>
+                </div>
+                <div class="col ps-5">
+                    <p class="text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, See more</p>
+                    </div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-outline-primary bg-transparent border-0 shadow-none text-black-50 p-3 border-top" type="button">See All Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about  -->
+    <!-- start experience  -->
+    <section class="experience mb-4">
+        <div class="container ">
+            <div class="row border pb-3">
+                <div class="col-lg-12 ps-5 pt-5 pb-2 d-flex justify-content-between p-4">
+                    <h4>Licenses & certifications</h4>
+                </div>
+                <div class="col-lg-2 d-flex justify-content-sm-start ps-5">
+                    <div class="box">
+                        <img src="images/Circle.png" alt="" style="width: 130px;" role="button">
+                    </div>
+                </div>
+                <div class="col-lg-10 ps-5 ps-lg-0 pt-2 mb-3">
+                    <p>Front- end internship</p>
+                    <p>XYZ company</p>
+                    <p>Aug 2021-2mos</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- end experience  -->
+    <!-- start education  -->
+    <section class="education mb-4">
+        <div class="container ">
+            <div class="row border pb-3">
+                <div class="col-lg-12 ps-5 pt-5 pb-2 d-flex justify-content-between p-4 ">
+                    <h4>Education</h4>
+                </div>
+                <div class="col-lg-2 d-flex justify-content-sm-start ps-5">
+                    <div class="box">
+                        <img src="images/Circle.png" alt="" style="width: 130px;" role="button">
+                    </div>
+                </div>
+                <div class="col-lg-10 ps-5 ps-lg-0 pt-2 mb-3">
+                    <p>Faculty of Engineering,Alexandria university</p>
+                    <p>Bachelor's degree</p>
+                    <p>2017-2022</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- end education  -->
+    <!-- start skills  -->
+    <section class="education mb-4">
+        <div class="container ">
+            <div class="row border">
+                <div class="col-lg-12 ps-5 pt-5 pb-2 d-flex justify-content-between p-4">
+                    <h4>Skills</h4>
+                </div>
+                <div class="col-lg-2 d-flex justify-content-sm-start ps-5 mb-3">
+                    <p>communication</p>
+                </div>
+                <div class="col-lg-10 ps-5 ps-lg-0 mb-3">
+                    <p>problem solving</p>
+                </div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-outline-primary bg-transparent border-0 shadow-none text-black-50 p-3 border-top" type="button">See all skills</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- end skills  -->
+    <!-- start interest  -->
+    <section class="interest mb-4">
+        <div class="container ">
+            <div class="row border">
+                <div class="col-lg-12 ps-5 pt-5 pb-2 d-flex justify-content-between p-4">
+                    <h4>Interests</h4>
+                </div>
+                <div class="col-lg-2 d-flex justify-content-sm-start ps-5 mb-3">
+                    <p>companies</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- end interst  -->
+    <!-- start footer  -->
+    <footer class="text-center text-md-start">
+        <div class="container ">
+            <div class="row pt-5">
+                <div class="col-md-6 col-lg-3 ps-lg-5">
+                    <ul class="link list-unstyled ">
+                        <li>
+                            <a href="#" class="text-light text-decoration-none">About US</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-light text-decoration-none">Our Service</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-light text-decoration-none">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <ul class="link list-unstyled ">
+                        <li>
+                            <a href="#" class="text-light text-decoration-none">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-light text-decoration-none">Help and support</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-light text-decoration-none">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <ul class="link list-unstyled ">
+                        <li>
+                            <a href="#" class="text-light text-decoration-none">Interenships</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-light text-decoration-none">Jobs</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-light text-decoration-none">Courses</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <ul class="link list-unstyled ">
+                        <li>
+                            <a href="#" class="text-light text-decoration-none">Start-up</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-light text-decoration-none">Students</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-light text-decoration-none">Entry level</a>
+                        </li>
+                    </ul>
+                    </div>
+                <div class="d-flex border-bottom border-top p-4 ps-0">
+                    <div class="col-6 col-lg-2 d-flex justify-content-sm-start ps-5">
+                        <p class="mb-0"> Follow us on </p>
+                        </div>
+                    <ul class="col-6 list-unstyled d-flex gap-3 mb-0">
+                        <li class="mb-0">
+                            <a href="#" class="text-light">
+                                <i class="fa-brands fa-facebook fs-4 ms-3"></i>
+                            </a>
+                            </li>
+                            <li class="mb-0">
+                                <a href="#" class="text-light">
+                                <i class="fa-brands fa-instagram fs-4 ms-3"></i>
+                            </a>
+                            </li>
+                            <li class="mb-0">
+                                <a href="#" class="text-light">
+                                <i class="fa-brands fa-twitter fs-4 ms-3"></i>
+                            </a>
+                            </li>
+                            </ul>
+                </div>
+                <div class="col-lg-12 d-flex align-items-center justify-content-center p-4">
+                    <p class="m-0">&copy; 2022 ConnectOut&reg; Global Inc</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+        <!-- end footer  -->
+
+</body>
+</html>

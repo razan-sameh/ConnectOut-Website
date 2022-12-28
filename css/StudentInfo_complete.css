@@ -1,0 +1,67 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#f4f2f269 ;
+}
+section .btn-primary {
+    color: #fff;
+    background-color: #95C93D;
+    border-color: #95C93D;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #95C93D;
+    border-color: #95C93D;
+}
+.btn-primary:active {
+    color: #fff;
+    background-color: #95C93D;
+    border-color: #95C93D;
+}
+.btn-primary:focus {
+    color: #fff;
+    background-color: #95C93D;
+    border-color: #95C93D;
+    box-shadow: 0 0 0 0;
+}
+.btn-primary:active:focus {
+    box-shadow: 0 0 0 0;
+}
+.btn-outline-primary {
+    color: #95C93D;
+    border-color: #95C93D;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #95C93D;
+    border-color: #95C93D;
+}
+.btn-outline-primary:active {
+    color: #fff;
+    background-color: #95C93D;
+    border-color: #95C93D;
+}
+.btn-outline-primary:focus {
+    box-shadow: 0 0 0 0;
+}
+.btn-outline-primary:active:focus {
+    box-shadow: 0 0 0 0;
+}
+section .container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+@media (max-width:576px) {
+    .navbar-brand {
+        width: 50%;
+    }
+    .navbar-brand img{
+        width: 100%;
+    }
+    .user_img{
+        width: 15%;
+    }
+}

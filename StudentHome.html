@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <link  rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalization.css">
+    <link rel="stylesheet" href="css/StudentHome.css">
+    
+    <title>Connect Out</title>
+</head>
+<body>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light p-0 mb-2 pt-2">
+        <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="images/Logo in white.png" alt="logo.png" class="logo img-fluid">
+        </a>
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars navbar-toggler-icon" style="color: white;"></i>
+        </button>
+        <!--Search-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="search d-flex m-auto rounded-3 fs-4 align-items-center" style="background-color: #ffffff36;">
+                <i class="fa-solid fa-magnifying-glass ps-2 fs-5 fw-normal" style="color: white;"></i>
+                <input class="form-control shadow-none border-0 " type="search" placeholder="Search" aria-label="Search" style="background-color: transparent;">
+            </form>
+            <!--End search-->
+            <!--Start links-->
+            <ul class="navbar-nav  mb-2 mb-lg-0">
+            <div class="main_li d-flex flex-lg-row flex-md-column align-items-center">
+            <li class="nav-item active"><a href="#" class="p-3" style="color: #95C93D;">Find</a></li>
+            <li class="nav-item "><a href="#" class="p-3">Applications</a></li>
+            <li class="nav-item"><a href="#" class="p-3">Messages</a></li>        
+            <li class="nav-item ">
+                <a href="#" class="d-lg-none fs-6 not p-3">Notification </a>
+                <i class="fa-solid fa-bell  " style="color: white; font-size: 25px; cursor: pointer;padding: 16px;"></i>
+            </li>
+        </div>
+        <!--End links-->
+            <li class="nav-item dropdown text-center position-relative flex-wrap">
+                <div class="photo_container dropdown-toggle mt-2" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                <img src="images/small 1st character 1.png" style="position: absolute; left: 0; clip-path: circle();" alt="char.png"
+                    class=" img-fluid" id="img3">
+                </div>
+                <div class="nav-d-lg-none mt-2 text_student_name">
+                        <a class="d-lg-none   p-0 me-4" style="color: white;" href="#">Student name </a>
+                        <a class=" d-lg-none   p-0 ms-2" style="color: white;" href="#">student@gmail.com</a>
+                </div>
+            <span class="arrow d-lg-none d-flex dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false"></span>
+            <!--Dropdown list-->
+                <ul class="dropdown-menu dropdown-menu-end p-3 menu" aria-labelledby="navbarDropdownMenuLink" style="width: 250px;margin-top: 10px;margin-right:-4px;">
+                    <li class="d-flex align-items-center photo_names">
+                        <div class="photo_container">
+                        <img src="images/small 1st character 1.png" style="position: absolute; left: 0; clip-path: circle();" alt="char.png" class=" img-fluid" id="img2">
+                    </div>
+                        <div class = "">
+                            <a class="dropdown-item bg-transparent p-0 ms-2" href="#">Student name </a>
+                            <a class="dropdown-item bg-transparent text-black-50 p-0 ms-2" href="#">student@gmail.com</a>
+                        </div>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li class="d-flex align-items-center">
+                        <a class="dropdown-item bg-transparent" href="#">Saved</a>
+                        <i class="fa-solid fa-bookmark fs-4 pe-2 d-md-none"></i>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <a class="dropdown-item bg-transparent" href="#">Contact us</a>
+                        <i class="fa-solid fa-envelope fs-4"></i>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <a class="dropdown-item bg-transparent" href="#">About us</a>
+                        <i class="fa-solid fa-circle-exclamation fs-4"></i>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li class="d-flex align-items-center">
+                        <a class="dropdown-item bg-transparent" href="#">Setting</a>
+                        <i class="fa-solid fa-gear fs-4"></i>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <a class="dropdown-item bg-transparent" href="#">Logout</a>
+                        <i class="fa-solid fa-circle-arrow-left fs-4"></i>
+                    </li>
+                </ul>
+            </li>
+            </ul>  
+        </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start secrions   -->
+        <section class=" mb-4">
+            <div class="container ">
+                <div class="row ">
+                    <div class="content-area d-flex">
+                        <!-- start navbar -->
+                        <aside class="information">
+                            <nav>
+                                <div class="row position-relative landing"></div>
+                                <div class="row position-relative">
+                                    <a href="#" class="photo">
+                                        <img src="images/1st character 1.png" alt="character.png" class="img-fluid rounded-circle" style="width: 200px">
+                                    </a>
+                                    <div class="info position-relative">
+                                        <div class="text">
+                                            <a href="#">
+                                                <h4 class="m-0 fw-bold">Student name</h3>
+                                            </a>                                            
+                                            <p>university and major</p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </nav>
+                        </aside>
+                        <!-- end navbar -->
+                        <!-- start main  -->
+                        <main>
+                            <div class="job-container">
+                                <div class="job border p-4 mb-3">
+                                    <a href="#">
+                                    <div class="header d-flex justify-content-between">
+                                        <div class="text d-flex align-items-center">
+                                            <h1 class="pe-2">Job title</h1>
+                                            <button type="button" class="btn btn-primary rounded-pill shadow-none mb-2" style="height: fit-content;">Duration</button>
+                                        </div>
+                                        <div class="logo">
+                                            <img src="images/building-on-crescent-4303ld 2.png" alt="">
+                                        </div>
+                                            
+                                    </div>
+                                    <div class="details">
+                                        <div class="text">
+                                            <h5 class="m-0"> Company name</h5>
+                                            <p>company field-Location</p>
+                                        </div>
+                                        <div class="desc">
+                                            <h5 class="fw-normal m-0 p-5 ps-0 pt-3">Job description</h5>
+                                        </div>
+                                    </div>
+                                    <div class="buttons border-top d-flex pt-4">
+                                        <div class="icon d-flex ms-4 me-3" role="button">
+                                            <i class="fa-solid fa-bookmark fs-4 me-2"></i>
+                                            <p class="m-0">Save</p>
+                                        </div>
+                                        <div class="icon d-flex "role="button">
+                                            <i class="fa-solid fa-share fs-4 me-2"></i>
+                                            <p class="m-0">Share</p>
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </main>
+                        <!-- end main  -->  
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <!-- end secrions   -->
+    <!-- start footer  -->
+    <footer class="text-center text-md-start">
+        <div class="container ">
+            <div class="row pt-5">
+                <div class="col-md-6 col-lg-4 ps-lg-5">
+            <ul class="link list-unstyled ">
+                <li>
+                    <a href="#" class="text-light text-decoration-none">About US</a>
+                </li>
+                <li>
+                    <a href="#" class="text-light text-decoration-none">Our Service</a>
+                </li>
+                <li>
+                    <a href="#" class="text-light text-decoration-none">Contact Us</a>
+                </li>
+            </ul>
+            </div>
+            <div class="col-md-6 col-lg-4">
+            <ul class="link list-unstyled ">
+                <li>
+                    <a href="#" class="text-light text-decoration-none">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#" class="text-light text-decoration-none">Help and support</a>
+                </li>
+                <li>
+                    <a href="#" class="text-light text-decoration-none">Feedback</a>
+                </li>
+            </ul>
+            </div>
+            <div class="col-md-6 col-lg-4">
+            <ul class="link list-unstyled ">
+                <li>
+                    <a href="#" class="text-light text-decoration-none">Start-up</a>
+                </li>
+                <li>
+                    <a href="#" class="text-light text-decoration-none">Students & Entry level</a>
+                </li>
+                <li>
+                    <a href="#" class="text-light text-decoration-none">Career Coach</a>
+                </li>
+            </ul>
+            </div>
+        <div class="d-flex border-bottom border-top p-4 ps-0">
+            <div class="col-6 col-lg-2 d-flex justify-content-sm-start ps-5">
+                <p class="mb-0"> Follow us on </p>
+            </div>
+            <ul class="icon col-6 list-unstyled d-flex gap-3 mb-0">
+                <li class="mb-0">
+                    <a href="#" class="text-light">
+                        <i class="fa-brands fa-facebook fs-4 ms-3"></i>
+                    </a>
+                    </li>
+                    <li class="mb-0">
+                        <a href="#" class="text-light">
+                        <i class="fa-brands fa-instagram fs-4 ms-3"></i>
+                    </a>
+                    </li>
+                    <li class="mb-0">
+                        <a href="#" class="text-light">
+                        <i class="fa-brands fa-twitter fs-4 ms-3"></i>
+                    </a>
+                    </li>
+                    </ul>
+                    </div>
+                    <div class="col-lg-12 d-flex align-items-center justify-content-center p-4">
+                        <p class="m-0">&copy; 2022 ConnectOut&reg; Global Inc</p>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </footer>
+    <!-- end footer  -->
+    </body>
+    </html>

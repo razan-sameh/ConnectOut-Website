@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <link  rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalization.css">
+    <link rel="stylesheet" href="css/CareerCoachProfile.css">
+    
+    <title>Connect Out</title>
+</head>
+<body>
+<!-- start navbar -->
+<nav class="navbar navbar-expand-lg navbar-light p-0 mb-2 pt-2">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+        <img src="images/Logo in white.png" alt="logo.png" class="logo img-fluid">
+        </a>
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars navbar-toggler-icon" style="color: white;"></i>
+        </button>
+    <!--Search-->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="search d-flex m-auto rounded-3 fs-4 align-items-center" style="background-color: #ffffff36;">
+            <i class="fa-solid fa-magnifying-glass ps-2 fs-5 fw-normal" style="color: white;"></i>
+            <input class="form-control shadow-none border-0 " type="search" placeholder="Search" aria-label="Search"
+                style="background-color: transparent;">
+        </form>
+        <!--End search-->
+        <!--Start links-->
+        <ul class="navbar-nav  mb-2 mb-lg-0">
+            <div class="main_li d-flex flex-lg-row flex-md-column align-items-center">
+                <li class="nav-item active"><a href="#" class="p-3" style="color: #95C93D;">Find</a></li>
+                <li class="nav-item "><a href="#" class="p-3">Reports</a></li>
+                <li class="nav-item"><a href="#" class="p-3">Messages</a></li>
+                <li class="nav-item ">
+                    <a href="#" class="d-lg-none fs-6 not p-3">Notification </a>
+                    <i class="fa-solid fa-bell  " style="color: white; font-size: 25px; cursor: pointer;padding: 16px;"></i>
+                </li>
+    </div>
+    <!--End links-->
+    <li class="nav-item dropdown text-center position-relative flex-wrap">
+        <div class="photo_container dropdown-toggle mt-2" href="#" id="navbarDropdownMenuLink" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="images/small careercoaach.png" style="position: absolute; left: 0; clip-path: circle();"
+                alt="char.png" class=" img-fluid" id="img3">
+        </div>
+        <div class="nav-d-lg-none mt-2 text_student_name">
+            <a class="d-lg-none   p-0 me-4" style="color: white;" href="#">Student name </a>
+            <a class=" d-lg-none   p-0 ms-2" style="color: white;" href="#">student@gmail.com</a>
+        </div>
+        <span class="arrow d-lg-none d-flex dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false"></span>
+        <!--Dropdown list-->
+        <ul class="dropdown-menu dropdown-menu-end p-3 menu" aria-labelledby="navbarDropdownMenuLink"
+            style="width: 250px;margin-top: 10px;margin-right:-4px;">
+            <li class="d-flex align-items-center photo_names">
+                <div class="photo_container">
+                    <img src="images/small careercoaach.png" style="position: absolute; left: 0; clip-path: circle();"
+                        alt="char.png" class=" img-fluid" id="img2">
+                </div>
+                <div class="">
+                    <a class="dropdown-item bg-transparent p-0 ms-2" href="#">Student name </a>
+                    <a class="dropdown-item bg-transparent text-black-50 p-0 ms-2" href="#">student@gmail.com</a>
+                </div>
+            </li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li class="d-flex align-items-center">
+                    <a class="dropdown-item bg-transparent" href="#">Saved</a>
+                    <i class="fa-solid fa-bookmark fs-4 pe-2 d-md-none"></i>
+                </li>
+                <li class="d-flex align-items-center">
+                    <a class="dropdown-item bg-transparent" href="#">Contact us</a>
+                    <i class="fa-solid fa-envelope fs-4"></i>
+                </li>
+                <li class="d-flex align-items-center">
+                    <a class="dropdown-item bg-transparent" href="#">About us</a>
+                    <i class="fa-solid fa-circle-exclamation fs-4"></i>
+                </li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li class="d-flex align-items-center">
+                    <a class="dropdown-item bg-transparent" href="#">Setting</a>
+                    <i class="fa-solid fa-gear fs-4"></i>
+                </li>
+                <li class="d-flex align-items-center">
+                    <a class="dropdown-item bg-transparent" href="#">Logout</a>
+                    <i class="fa-solid fa-circle-arrow-left fs-4"></i>
+                </li>
+                </ul>
+                </li>
+                </ul>
+                </div>
+                </div>
+                </nav>
+                <!-- end navbar -->
+                <!-- start info -->
+        <section class="information mb-4">
+        <div class="container">
+        <div class="row landing">
+            <div class="position-absolute top-0 end-0 p-3 d-flex justify-content-end">
+                <div class="cam ">
+                    <i class="fa-solid fa-camera-retro fs-4" role="button"></i>
+                </div>
+            </div>
+        </div>
+                <!--Start Profile picture-->
+                <div class="row info position-relative">
+                    <div class="profile_picture_div photo">
+                    <img src="images/—Pngtree—fitness coach original hand drawn_5759419 1.png" alt="character.png" class="img-fluid" id="image">
+                    <input type="file" id="file">
+                    <label for="file" id="upload_btn">Upload photo</label> 
+                </div>
+                <!--end Profile picture-->
+                <div class="info col-lg-8 text p-5 pb-0 pb-lg-5">
+                <h3>Coach Name</h3>
+                <div class="d-flex align-items-center mb-2">
+                    <i class="star fa-solid fa-star pe-2 fs-5"></i>
+                    <p class="lh-1 m-0">university and major</p>
+                </div>
+                <p class="text-black-50">Resume Writing / Resume Development</p>
+                <button type="button" class="btn btn-outline-primary rounded-pill shadow-none mb-2">Add profile section</button>
+                <button type="button" class="btn btn-primary rounded-pill shadow-none mb-2">View Your Page</button>
+                </div>
+                <div class="col-lg-4 edit d-flex justify-content-end p-4">
+                    <p class="text-black-50">Edit profile info</p>
+                    <i class="fa-solid fa-pencil fs-4 ps-4" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal_info" ></i>
+                </div>
+                </div>
+                <!-- Start main info modal-->
+                <div class="modal fade" id="exampleModal_info" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Edit main information</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label" style="color:gray; font-size: 12px !important;">First Name</label> 
+                                <input class="form-control" id="message-text-name" type="text"></input>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label" style="color:gray; font-size: 12px !important;">Last Name</label> 
+                                <input class="form-control" id="message-text-issuing" type="text"></input>
+                                </div>
+                                <label for="message-text" class="col-form-label" style="color:gray; font-size: 12px !important;">Education</label>
+                                <select class="form-select mb-3" aria-label="Default select example">
+                                    <option selected>Please select</option>
+                                    <option value="1">Alexandria university </option>
+                                    <option value="2">Cairo university </option>
+                                    </select>
+                                    <div class="mb-3">
+                                    <label for="message-text" class="col-form-label" style="color:gray; font-size: 12px !important;">Major</label> 
+                                    <input class="form-control" id="message-text-issuing" type="text"></input>
+                                    </div>
+
+                                    <div class="mb-3">
+                                    <label for="message-text" class="col-form-label" style="color:gray; font-size: 12px !important;">City</label>
+                                    <input class="form-control" id="message-text-issuing" type="text"></input>
+                                    </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                <!-- End main info modal-->
+                </div>
+                </section>
+                <!-- end info -->
+                <!-- start about  -->
+                <section class="about mb-4">
+                    <div class="container ">
+                        <div class="row ">
+                            <div class="col-lg-12 ps-5 pt-5 pb-2 d-flex justify-content-between p-4">
+                                <h4>About</h4>
+                                <i class="fa-solid fa-pencil fs-4 ps-4 " role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"></i>
+                            </div>
+                <!-- Start About modal-->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Edit About</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                            <label for="message-text" class="col-form-label mb-3" style="color:gray; font-size: 12px !important;">You can write
+                                about what you learned in courses, Internships and how you can manage your time while you are in university.
+                                Moreover, you can write your experience if you take internship and what you have learned.</label>
+                            <textarea class="form-control wi" id="message-text"></textarea>
+                            </div>
+                        </form>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!-- End About modal-->
+                            <div class="col ps-5">
+                                <p class="text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, See more
+                                </p>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-outline-primary bg-transparent border-0 shadow-none text-black-50 p-3 border-top"
+                                    type="button">See All Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end about  -->
+                <!-- start experience  -->
+                <section class="experience mb-4">
+                    <div class="container ">
+                        <div class="row pb-3">
+                            <div class="col-lg-12 ps-5 pt-5 pb-2 d-flex justify-content-between p-4">
+                                <h4>Experience</h4>
+                                <div>
+                                    <i class="fa-solid fa-plus fs-4" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal2"></i>
+                <!-- Start Licenses & certifications modal-->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Add license or certification</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                            <label for="message-text" class="col-form-label" style="color:gray; font-size: 12px !important;">Name</label> <span class="ms-2" style="color:gray; font-size: 10px !important;">E.g: NBE customer services, Programmer</span>
+                            <input class="form-control" id="message-text-name" ></input>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label" style="color:gray; font-size: 12px !important;">Issuning Organization</label> <span class="ms-2" style="color:gray; font-size: 10px !important;">E.g: NBE , XYZ comapny</span>
+                                <input class="form-control" id="message-text-issuing"></input>
+                            </div>
+                            <label for="message-text" class="col-form-label" style="color:gray; font-size: 12px !important;">Issue Date</label>
+                            <div class="buttons_container d-flex">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Month</option>
+                                    <option value="1">January </option>
+                                    <option value="2">February </option>
+                                    <option value="3">March </option>
+                                    <option value="4">April </option>
+                                    <option value="5">May  </option>
+                                    <option value="6">June </option>
+                                    <option value="7">July </option>
+                                    <option value="8">August  </option>
+                                    <option value="9">September  </option>
+                                    <option value="10">October </option>
+                                    <option value="11">November </option>
+                                    <option value="12">December </option>
+                                </select>
+                                <select class="form-select ms-2" aria-label="Default select example">
+                                    <option selected>Year</option>
+                                    <option value="1">2022 </option>
+                                    <option value="2">2021 </option>
+                                    <option value="3">2020 </option>
+                                    <option value="4">2019 </option>
+                                    <option value="5">2018  </option>
+                                    <option value="6">2019 </option>
+                                    <option value="7">2018 </option>
+                                    <option value="8">2017  </option>
+                                    <option value="9">2016  </option>
+                                    <option value="10">2015 </option>
+                                    <option value="11">2014 </option>
+                                    <option value="12">2013 </option>
+                                    <option value="13">2012 </option>
+                                    <option value="14">2011 </option>
+                                    <option value="15">2010 </option>
+                                    <option value="16">2009 </option>
+                                    <option value="17">2008 </option>
+                                    <option value="18">2007 </option>
+                                </select>
+                                <select class="form-select ms-2" aria-label="Default select example">
+                                    <option selected>Period</option>
+                                    <option value="1">1 month </option>
+                                    <option value="2">2 month </option>
+                                    <option value="3">3 month </option>
+                                    <option value="4">more than 3 month </option>
+                                </select>
+                            </div>
+                        </form>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!-- End Licenses & certifications modal-->
+                                </div>
+                            </div>
+                            <div class="col-lg-2 d-flex justify-content-sm-start ps-5">
+                                <div class="box">
+                                    <img src="images/Circle.png" alt="" style="width: 130px;" role="button">
+                                </div>
+                            </div>
+                            <div class="col-lg-10 ps-5 ps-lg-0 pt-2 mb-3">
+                                <p>Front- end internship</p>
+                                <p>XYZ company</p>
+                                <p>Aug 2021-2mos</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+</section>
+<!-- end experience  -->
+<!-- start skills  -->
+<section class="education mb-4">
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-12 ps-5 pt-5 pb-2 d-flex justify-content-between p-4">
+                <h4>Skills</h4>
+                <div class="skills-modal">
+                    <button id="show-modal" class="fs-4 ps-4" type="button"><span>+</span></button>
+                        <!--Start modal skills-->
+                        <div class="overlay">
+                        <div id="modal" class="modal-dialog">
+                            <div class="modal-content">
+                                <button type="button" class="btn-close" aria-label="Close" id="not-show-modal"></button>
+                                <h4 style="padding:10px ;">Edit Skills</h4> 
+                                <hr style="color: gray; margin-top:-5px;">            
+                                <div class="container">
+                                    <span style="font: size 12px; color:gray;">Skills</span> 
+                                    <br />
+                                    <div class="tag-container">
+                                    <input placeholder="Enter your skills" />  
+                                    </div>
+                                </div>
+                                <hr style="color: gray;">
+                                <div class="button_save d-flex justify-content-end me-4">
+                                    <a href="#">Save</a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                    <!--End modal skills-->
+                </div>
+            </div>
+            <div class="col-lg-2 d-flex justify-content-sm-start ps-5">
+                <p>Resume Writing</p>
+            </div>
+            <div class="col-lg-10 ps-5 ps-lg-0">
+                <p>Cover Letter Writing</p>
+            </div>
+            <div class="col-lg-2 d-flex justify-content-sm-start ps-5 mb-lg-3 mb-0">
+                <p>Content Writing </p>
+            </div>
+            <div class="col-lg-10 ps-5 ps-lg-0 mb-3">
+                <p>Business Coaching</p>
+            </div>
+            <div class="d-grid gap-2">
+                <button class="btn btn-outline-primary bg-transparent border-0 shadow-none text-black-50 p-3 border-top"
+                    type="button">See all skills</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!-- end skills  -->
+<!-- start posted oppo -->
+<section class="experience mb-4">
+    <div class="container ">
+        <div class="row pb-3">
+            <div class="col-lg-12 ps-5 pt-5 pb-2 d-flex justify-content-between p-4">
+                <h4 class="fs-5">Recently Posted Opportunties</h4>
+            </div>
+            <div class="d-flex justify-content-sm-start mb-3 align-items-center">
+                <div class="col-lg-2 ps-3">
+                    <div class="box">
+                        <img src="images/building-on-crescent-4303ld 3.png" alt="" style="width: 130px;" role="button">
+                    </div>
+                </div>
+                <div class="col-lg-10 ps-5 ps-lg-0 pt-2 mb-3">
+                    <h5>Session tittle</h5>
+                    <p class="text-black-50">Session Description</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-sm-start mb-3 align-items-center">
+                <div class="col-lg-2 ps-3">
+                    <div class="box">
+                        <img src="images/building-on-crescent-4303ld 3.png" alt="" style="width: 130px;" role="button">
+                    </div>
+                </div>
+                <div class="col-lg-10 ps-5 ps-lg-0 pt-2 mb-3">
+                    <h5>Session tittle</h5>
+                    <p class="text-black-50">Session Description</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</section>
+<!-- end posted oppo -->
+<!-- start available oppo -->
+<section class="experience mb-4">
+    <div class="container ">
+        <div class="row pb-3">
+            <div class="col-lg-12 ps-5 pt-5 pb-2 d-flex justify-content-between p-4">
+                <h4 class="fs-5">Opportunities Available</h4>
+            </div>
+            <div class="d-flex justify-content-center align-items-center p-5">
+                <p class="text-black-50">No opportunities available now</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end available oppo -->
+<!-- start footer  -->
+<footer class="text-center text-md-start">
+    <div class="container ">
+        <div class="row pt-5">
+            <div class="col-md-6 col-lg-3 ps-lg-5">
+                <ul class="link list-unstyled ">
+                    <li>
+                        <a href="#" class="text-light text-decoration-none">About US</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-light text-decoration-none">Our Service</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-light text-decoration-none">Contact Us</a>
+                    </li>
+                </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                <ul class="link list-unstyled ">
+                    <li>
+                        <a href="#" class="text-light text-decoration-none">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-light text-decoration-none">Help and support</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-light text-decoration-none">Feedback</a>
+                    </li>
+                </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                <ul class="link list-unstyled ">
+                    <li>
+                        <a href="#" class="text-light text-decoration-none">Interenships</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-light text-decoration-none">Jobs</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-light text-decoration-none">Courses</a>
+                    </li>
+                </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                <ul class="link list-unstyled ">
+                    <li>
+                        <a href="#" class="text-light text-decoration-none">Start-up</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-light text-decoration-none">Students</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-light text-decoration-none">Entry level</a>
+                    </li>
+                </ul>
+                </div>
+            <div class="d-flex border-bottom border-top p-4 ps-0">
+                <div class="col-6 col-lg-2 d-flex justify-content-sm-start ps-5">
+                    <p class="mb-0"> Follow us on </p>
+                </div>
+                <ul class="col-6 list-unstyled d-flex gap-3 mb-0">
+                    <li class="mb-0">
+                        <a href="#" class="text-light">
+                            <i class="fa-brands fa-facebook fs-4 ms-3"></i>
+                        </a>
+                        </li>
+                        <li class="mb-0">
+                            <a href="#" class="text-light">
+                            <i class="fa-brands fa-instagram fs-4 ms-3"></i>
+                        </a>
+                        </li>
+                        <li class="mb-0">
+                            <a href="#" class="text-light">
+                            <i class="fa-brands fa-twitter fs-4 ms-3"></i>
+                        </a>
+                        </li>
+                        </ul>
+                        </div>
+                        <div class="col-lg-12 d-flex align-items-center justify-content-center p-4">
+                            <p class="m-0">&copy; 2022 ConnectOut&reg; Global Inc</p>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </footer>
+    <!-- end footer  -->
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/coach.js"></script>
+</body>
+</html>

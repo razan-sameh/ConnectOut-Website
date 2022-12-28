@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <link  rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalization.css">
+    <link rel="stylesheet" href="css/StudentInfo_6.css">
+    
+    <title>Connect Out</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-light border-bottom">
+            <div class="container-fluid d-flex">
+                <a class="navbar-brand" href="#">
+                    <img src="images/Logo 2.png" alt="">
+                </a>
+                <img src="images/user (1) 1.png" alt="" class="user_img">
+            </div>
+        </nav>
+    </div>
+
+<section>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <div class="container ps-4">
+        <h1 class="fw-bolder fs-1 w-50">
+            A few last details - then you can check and publich your profile.
+        </h1>
+        <p class="text w-50">
+            A profissional photo helps you build trust with your clients. To keep things safe and simple, they’ll pay you through us - which is why we need your personal information.
+        </p>
+        <br>
+        <div class="row d-flex">
+            <div class="sec-photo col-md-3 mb-5 position-relative d-flex align-items-center">
+                <div class="profile_picture_div photo d-block text-center ">
+                    <img src="images/user (1) 2.png" alt="character.png" class=" img-fluid user" id="image">
+                    <input type="file" id="file" class="d-none">
+                    <label for="file" id="upload_btn">+ Upload photo</label> 
+                </div>
+            </div>
+            <div class="col mt-5">
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-6">
+                        <label for="validationCustom04" class="form-label">Country *</label>
+                        <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>Alexandria</option>
+                        <option>Egypt</option>
+                        </select>
+                        <div class="invalid-feedback">
+                        Please select a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-7 ">
+                        <label for="validationCustom03" class="form-label">Street Address * (won’t show on profil)</label>
+                        <input type="text" class="form-control" id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                        Please provide a valid city.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mt-4 ">  
+                        <label for="validationCustom03" class="form-label"></label>
+                        <input type="text" class="form-control" id="validationCustom03" placeholder="Apt/Suite (Optional)">
+                    </div>
+                    <div class="col-md-3">
+                    <label for="validationCustom03" class="form-label">City *</label>
+                    <input type="text" class="form-control" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
+                    </div>
+
+                    <div class="col-md-3">
+                    <label for="validationCustom05" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="validationCustom05">
+                    <div class="invalid-feedback">
+                        Please provide a valid zip.
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+    <ul class="pagination">
+        <li class="page-item "><div class="page-link" href="#"></div></li>
+        <li class="page-item"><div class="page-link" href="#"></div></li>
+        <li class="page-item"><div class="page-link" href="#"></div></li>
+        <li class="page-item"><div class="page-link " href="#"></div></li>
+        <li class="page-item"><div class="page-link " href="#"></div></li>
+        <li class="page-item"><div class="page-link active" href="#"></div></li>
+
+    </ul>
+<footer class="p-5 pb-3">
+    <div class="container d-flex justify-content-between border-top pt-4">
+        <button type="button" class="btn btn-primary">Back</button>
+        <button type="button" class="btn btn-primary">Save</button>
+    </div>
+</footer>
+<script src="js/StudentInfo_6.js"></script>
+</body>
+</html>
